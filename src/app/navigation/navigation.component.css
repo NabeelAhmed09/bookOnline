@@ -1,0 +1,62 @@
+/* styles for the navigation component elements
+*/
+.top-menu {
+    padding: 15px 0px 15px 0px;
+    display: flex auto;
+    margin-bottom: 0px;
+    /* background-color: rgba(80,80,80,.5); */
+  background: #FFDD00;
+    color: rgb(252,252,252);
+    font-family: sans-serif;
+  }
+  #menuList {
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+  
+  }
+  .menu {
+    display: flex;
+    margin-right: 30px;
+    position: static;
+
+  }
+  #logo {
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px;
+
+  }
+  ul {
+    width: 100%;
+    position: static;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: right;
+    font-size: 14px;
+  }
+   li {
+    display: inline;
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 0px;
+  
+  }
+  
+  a {
+  
+    color: #fff;
+    list-style: none;
+  }
+  
+  a:hover {
+    color:red;
+    text-decoration-line: none;
+  }
+  a::selection{
+  
+    text-decoration-line: none;
+  }
+    li.active {
+  
+    color:red !important;
+  }

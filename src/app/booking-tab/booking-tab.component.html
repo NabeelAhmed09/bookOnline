@@ -1,0 +1,60 @@
+<!-- the booking tab component, solely used for booking tab only -->
+<div class="booking-tab">
+  <div class="row">
+
+<!-- <div class="booknow">
+      <h4>book now  </h4>
+    </div> -->
+    <!-- THIS IS THE LOCATION INPUT AREA-->
+    <div class="col-md-3 form-group">
+      <label for="location">Location</label>      
+        <input class="form-control" type="text" id="location" [(ngModel)]="selected"
+        [typeahead]="states" placeholder="Search Location">
+    </div>
+    <!--LOCATION INPUT AREA END-->
+
+  <!-- THIS IS THE CHECK-IN DATEPICKER INPUT AREA-->
+    <div class="col-md-2 form-group">
+      <label for="date">Check-in:</label>
+        <input type="text"
+         class="form-control"
+         bsDatepicker
+         placement="top"
+         [bsValue] = "bsValue">
+       </div>
+  <!-- CHECK-IN AREA END HERE-->
+
+      <!-- THIS IS THE CHECK-OUT DATEPICKER INPUT AREA-->
+       <div class="col-md-2 form-group">
+    <label for="date">Check-out:</label>
+     <input type="text"
+            placeholder="Select Date"
+            class="form-control"
+            bsDatepicker
+            placement="top">
+        </div>
+    <!-- cHECKOUT DATEPICKER AREA END-->
+   
+    <!--This is dropDown menu-->
+      <div class="col-md-3 form-group">
+        <div bsDropdown>
+          <label>Guests</label>
+          <button  id="button-basic" dropdownToggle type="button" class=" dropdown-toggle form-control"
+                  aria-controls="dropdown-basic">
+            Persons <span class="caret"></span>
+          </button>
+          <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+              role="menu" aria-labelledby="button-basic">
+            <li role="menuitem"><a class="dropdown-item" href="#">one</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">two</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">three</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">more</a></li>
+          </ul>
+        </div>
+       </div>
+       <div class="col-md-2 form-group">
+        <button mat-raised-button id="submit-button">Find Hotel</button>
+       </div>
+
+   </div>
+</div>

@@ -1,0 +1,9 @@
+
+
+Following are the info of md-bootstrap module
+
+1) installing it through npm manager (chart.js and hammerjs additional dependencies)
+2) importing it from md-bootstrap
+3) adding styles of mdbootstrap into angular.json which let the mdbstrap to work properly
+4) adding js scripts for the same reason above
+5) include a path in tsconfig.json file

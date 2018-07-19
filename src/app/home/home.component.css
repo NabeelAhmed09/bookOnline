@@ -1,0 +1,87 @@
+
+.carouselClass {
+
+    height: 70%;
+}
+img {
+    display: block;
+     width:100%;
+      height:635px;
+}
+.popularHotels {
+    font-size: 16px;
+    padding: 100px 0px 40px 0px;
+    text-align: center;
+
+} 
+.polularHotels h2 {
+    font-size: 50px;
+}
+.card-images {
+    width: 100px;
+    height: 100px;
+}
+
+.card {
+    margin: 10px 15px 10px 15px;
+    width: 22%;
+    display: flex;
+    flex: auto;
+    height: 400px;
+}
+.card-body {
+
+    height: 200px;
+}
+.popular-hotel-cards {
+
+    display: inline-flex;
+    margin: 0px 50px 0px 50px;   
+    padding: 10px 30px 80px 30px;
+
+}
+.card-text p{
+
+    font-size: 16px;
+}
+
+  /* Home Footer Template styles*/
+  .col-md-2 {
+
+    width: 16.66667%;
+    min-width: 16.66667%;
+  }
+  .col-md-3 {
+    width: 25%;
+    margin-bottom: 0;
+    min-width: 25%;
+  
+  }
+  
+.footer-contact {
+    margin-top: 300px;
+    display: flex;
+    flex:content;
+    color: #fff;
+    background: #2C2E3E;
+    margin: 30px 0px 0px 0px;
+    padding: 50px 50px 50px 50px;
+}
+.footer-contact ul{
+    padding-left: none;
+    list-style-type: none;
+    list-style-position: inside;
+}
+h4 {
+    margin-bottom: 20px;
+}
+ul li{
+    padding-bottom: 5px;
+    list-style-type: none;
+
+}
+.contact-row {
+    display: flex;
+    flex: auto;
+}
+

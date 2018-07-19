@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*css theme imported for materials components */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+
+  font-family: Arial, sans-serif;
+      font-weight: 400;
+      /* font-size: 14px; */
+      line-height: 1.7;
+      color: #595959;
+}
+* {
+  box-sizing:border-box;
+
+}
+
+/* .top-menu {
+  position:  sticky;
+  padding: 30px 0px 0px 0px;
+  background-color: #ffcc00;
+  color: rgb(252,252,252);
+  font-family: sans-serif;
+}
+#menuList {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+
+}
+.menu {
+  margin-right: 30px;
+  text-align: right;
+}
+ li {
+  display: inline;
+  padding: 0px 30px 0px 30px;
+
+}
+.frontPage {
+
+  display: inline;
+} */

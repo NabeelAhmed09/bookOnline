@@ -1,0 +1,52 @@
+
+.frontPage {
+
+  display: inline;
+  font-family: sans-serif serif;
+}
+
+
+/* .tab-content {
+  background: #2C2E3E;
+  padding: 30px 60px;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active #ffDD00; {
+  display: block;
+}
+
+.row {
+  margin-left: -15px;
+
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+} */
+/*
+#colorlib-reservation .booknow {
+  margin-top: 5px;
+  display: block; }
+  #colorlib-reservation .booknow h2, #colorlib-reservation .booknow span {
+    color: #fff; }
+  #colorlib-reservation .booknow h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 20px; }
+  #colorlib-reservation .booknow span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+.col-md-2, .col-md-3{
+
+  position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+} */
