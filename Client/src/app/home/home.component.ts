@@ -13,6 +13,8 @@ export class HomeComponent implements OnInit {
     this.maxDate.setDate(this.maxDate.getDate() + 7);
     this.bsRangeValue = [this.bsValue, this.maxDate];
   }
+
+
   selected: string;
   states: string[] = [
     'Alabama',

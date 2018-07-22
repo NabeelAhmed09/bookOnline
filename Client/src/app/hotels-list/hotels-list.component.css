@@ -1,0 +1,21 @@
+.header {
+
+    margin-bottom: 100px;
+}
+.hotels-list-section {
+    width:100%;
+    display: inline-block;
+}
+.sideBar {
+
+    width:25%;
+}
+.hotels-listing {
+    display:table;
+    max-width: 70%;
+    display: flex;
+    flex: inherit;
+}
+.card {
+    margin-right: 20px;
+}

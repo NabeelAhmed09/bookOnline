@@ -12,4 +12,13 @@ export class HotelsListComponent implements OnInit {
   ngOnInit() {
   }
 
+  hotelsList:{name: string, Detail: string}[] = [
+    { "name":"Ritz Hotel", "Detail":"beautiful hotel with luxurious styles"},
+    { "name":"DaysInn Hotel", "Detail":"beautiful hotel with luxurious styles"},
+    { "name":"Pearl Continental", "Detail":"beautiful hotel with luxurious styles"},
+    { "name":"Regent Plaza Hotel", "Detail":"beautiful hotel with luxurious styles"},
+    { "name":"Ramada Plaza Hotel", "Detail":"beautiful hotel with luxurious styles"}
+
+];
 }
+ 
